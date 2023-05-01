@@ -1,0 +1,22 @@
+.table{
+
+    .tableCell{
+
+        .status{
+            padding:5px;
+            border-radius: 5px;
+            
+
+            &.good{
+                color: black;
+                background-color: green;
+            }
+
+            &.bad{
+                color:black;
+                background-color: yellow;
+            }
+        }
+    }
+   
+}
